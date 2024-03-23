@@ -53,5 +53,7 @@ elif game==1 and random_t==3:
   print("user wins!")
 elif game==3 and random_t==1:
   print("computer wins")
+elif game>3 and game<1:
+    print("it is invalid ")
 else:
   print("noneofthem wins")
